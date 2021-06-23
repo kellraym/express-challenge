@@ -34,9 +34,10 @@ app.get('/students/:studentId', (req, res) => {
 app.get('/grades/:studentId', (req, res) => {
   let id = req.params.studentId
   let student = students.filter(student => student.id === Number(id))
-  console.log(student[0].grades)
+  let grades = student[0].grades;
+  // let [grade1, grade2, grade3] = ...grades
   if (student) {
-    res.send(student.grades)
+    res.send(grades)
   } else {
     res.send(students)
   }
