@@ -43,7 +43,9 @@ app.get('/grades/:studentId', (req, res) => {
   }
 })
 
-// app.post('/grades')
+app.post('/grades', (req, res) => {
+  res.send(req.body)
+})
 
 const port = 3001
 app.listen(port, () => {
