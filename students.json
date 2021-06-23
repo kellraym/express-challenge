@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": [
+      "Joe",
+      "Schmoe"
+    ],
+    "grades": [90, 100, 89]
+  },
+  {
+    "id": 2,
+    "name": [
+      "Jim",
+      "Shmim"
+    ],
+    "grades": [40, 45, 3]
+  },
+  {
+    "id": 3,
+    "name": [
+      "Jack",
+      "Schmack"
+    ],
+    "grades": [85, 79, 75]
+  }
+]
